@@ -1,24 +1,23 @@
+# Variables de entorno — NUNCA subir al repo
+.env
+.env.*
+!.env.example
+
 # Python
 __pycache__/
-*.pyc
+*.py[cod]
 *.pyo
 *.pyd
-*.sqlite3
-
-# Entorno virtual
+.Python
+*.egg-info/
+dist/
+build/
 venv/
-.env
+.venv/
 
 # Sistema
 .DS_Store
 Thumbs.db
 
-# Logs
-*.log
-
-# Node (por si luego usas)
-node_modules/
-
-# IDE
-.vscode/
-.idea/
+# Railway (viejo formato)
+railway.json
