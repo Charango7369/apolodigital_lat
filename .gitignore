@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+
+# Entorno virtual
+venv/
+.env
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Node (por si luego usas)
+node_modules/
+
+# IDE
+.vscode/
+.idea/
